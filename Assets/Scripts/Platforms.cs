@@ -33,7 +33,7 @@ public class Platforms : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) 
     {
-        collision.transform.SetParent(transform);
+        collision.transform.SetParent(this.transform);
 
     }
 

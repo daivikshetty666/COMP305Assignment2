@@ -16,12 +16,6 @@ public class RollingPlatform : MonoBehaviour
         collision.transform.SetParent(null);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Platform")
-        {
-            speed = 0f;
-        }
-    }
+    
 
 }
